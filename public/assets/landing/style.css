@@ -1,0 +1,835 @@
+.feature h1{
+    font-family: "Verdana";
+    color: blue;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.feature .update__seal h2{
+    margin-top: 0px;
+    font-family: "Verdana";
+    color: red;
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.feature .update__seal i{
+    background: red;
+    padding: 2px 5px;
+    color: white;
+    font-size: 14px;
+    /* line-height: 12px; */
+    border-radius: 5px;
+}
+
+.feature span{
+    padding: 1px 5px;
+    margin-right: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* border-radius: 50%; */
+    background: orange;
+}
+
+.feature p {
+    font-family: "Verdana";
+    color: #000000;
+    font-size: 12px;
+}
+
+.feature hr{
+    margin-top: 0.5%;
+}
+
+.feature h2{
+    margin-top: 20px;
+    /* margin-left: -10%; */
+    font-family: "Verdana";
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.feature img{
+    border-radius: 10px;
+    border: 3px solid rgb(240, 229, 229);
+    width: 100%;
+    height: 120px;
+    box-shadow: 1px 1px black;
+}
+
+.pengenalan h1 {
+    font-family: "Verdana";
+    color: blue;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.pengenalan span{
+    padding: 1px 5px;
+    margin-right: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* border-radius: 50%; */
+    background: orange;
+}
+
+.pengenalan p {
+    font-family: "Verdana";
+    color: #000000;
+    font-size: 13px;
+}
+
+.pengenalan_content p {
+    font-family: "Verdana";
+    color: #000000;
+    font-size: 13px;
+}
+
+.pengenalan img {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    border: 3px solid rgb(240, 229, 229);
+    box-shadow: 2px black;
+}
+
+.pengenalan hr{
+    margin-top: 0.5%;
+}
+
+
+.pengenalan_content img {
+    margin: auto;
+    border-radius: 10px;
+    border: 3px solid rgb(240, 229, 229);
+    /* box-shadow: 2px black; */
+    width: 100%;
+    height: 100px;
+}
+
+.navigation ul{
+    margin-top: 35px;
+    margin-left: 5px;
+}
+
+.navigation .text{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: rgb(152, 152, 207);
+    color:rgb(240, 229, 229);
+    position: absolute;
+    width: 100px;
+    margin-left: -12%;
+}
+
+.navigation .text p{
+    margin-left: 5px;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.navigation ul li{
+    margin-bottom: 10px;
+    list-style: none;
+    font-size: 11px;
+    color:rgb(240, 229, 229);
+}
+
+.navigation ul li a{
+    margin-left: 2px;
+}
+
+.navigation li.active{
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+.navigation li.active::before {
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    left: 5%;
+    color: black;
+    /* top: 0%; */
+    margin-top: 0%;
+    content: "\2192";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.navigation .submenu li a{
+    margin-left: 2px;
+}
+
+.navigation .submenu li.active{
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+.navigation .submenu li.active::before {
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    left: 14%;
+    color: black;
+    /* top: 0%; */
+    margin-top: 0%;
+    content: "\2192";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.newsbox_content table{
+    background: rgb(231, 237, 240);
+    margin-left: 20px !important;
+    width: 100% !important;
+}
+
+.newsbox_content table thead{
+    font-family: "Verdana";
+    border-bottom: 1px solid rgb(193, 193, 223);
+    color: blue;
+    font-size: 15px;
+    /* font-weight: 800; */
+    background: white;
+}
+
+.newsbox_content table thead th{
+    padding: 10px;
+}
+
+.newsbox_content table tbody tr > td{
+    padding: 10px 5px 10px 10px;
+    border-bottom: 1px dashed rgb(193, 193, 223);
+}
+
+.newsbox_content .head span{
+    /* margin-right: 5px; */
+    /* font-size: 15px; */
+    border-radius: 100%;
+    /* padding: 2px 1px 2px 5px; */
+    color: rgb(203, 203, 209);
+    /* background: rgb(203, 203, 209); */
+}
+
+.newsbox_content table tbody span{
+    line-height: 15px;
+}
+
+.gallery_img{
+    margin-top: 10px;
+}
+
+.gallery_img a{
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.gallery_img img{
+    margin-bottom: 10px;
+    width: 135px;
+}
+
+.navigation .submenu {
+    width: 100% !important;
+    margin-top: 10px;
+    margin-left: 15px !important;
+}
+
+.navigation .submenu li{
+    /* margin-bottom: 10px; */
+    list-style: none;
+    border-bottom: 1px dashed rgb(139, 131, 131);
+    font-size: 11px;
+    color: rgb(139, 131, 131);
+}
+
+.header {
+    font-family: "Verdana";
+    color: blue;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.header .date{
+    background: transparent;
+    color: red;
+
+}
+
+.border-header{
+    margin-top: 0.5%;
+}
+
+.header span {
+    padding: 1px 5px;
+    margin-right: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* border-radius: 50%; */
+    background: orange;
+}
+
+.gameUpdate__content li {
+    margin-left: 10px;
+}
+
+.gameUpdate__content li {
+    /* background: orange; */
+    /* border-radius: ; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.gameUpdate__content li a.active {
+    /* background: orange; */
+    /* border-radius: ; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bold;
+}
+
+
+.gameUpdate__content li a{
+    color: white;
+    font-weight: bold;
+}
+
+.splide{
+    margin: auto;
+    /* width: 90%; */
+}
+
+/* .splide .splide__list{
+    margin-left: 40px !important;
+} */
+
+.gameUpdate__content .nav-tabs li{
+    background-color: orange;
+}
+
+.gameUpdate__content .header-image{
+    /* width: 850px; */
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    border: 3px solid rgb(240, 229, 229);
+}
+
+.gameUpdate__content .content-image{
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid rgb(240, 229, 229);
+}
+
+.gameUpdate__content .content h2{
+    font-family: "Verdana";
+    color: red;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.gameUpdate__content .content i{
+    background: red;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.gameUpdate__content .content {
+    border-bottom: 1px dashed rgb(139, 131, 131);
+}
+
+.header-navigation{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    background: rgb(187, 187, 189);
+}
+
+.header-navigation h4{
+    color: rgb(128, 118, 118);
+    /* line-height: 20px; */
+    font-size: 12px;
+}
+
+/* panduan */
+.feature .panduan__image{
+    width: 100%;
+    height: 150px !important;
+}
+
+.feature .table table{
+    border: 1px solid rgb(187, 187, 189);
+    margin-top: 10px;
+    width: 100%;
+}
+
+.feature .table table th{
+    background-color: rgb(245, 229, 170);
+    border: 1px solid rgb(187, 187, 189);
+}
+
+.feature .table table td{
+    background-color: rgb(247, 238, 202);
+    border: 1px solid rgb(187, 187, 189);
+}
+
+.peta__content img{
+    width: 100%;
+    /* height: 80%; */
+}
+
+.peta__content p{
+    margin-left: 5px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.gameUpdate__content .game__content-image{
+    width: 100%;
+    height: 270px;
+}
+
+.gameUpdate__content h5{
+    font-size: 17px;
+}
+
+.list_pet{
+    list-style: none;
+}
+
+.list_pet li{
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(187, 187, 189);
+}
+
+.list_pet a img{
+    margin-right: 10px;
+}
+
+.list_pet li span{
+    color: blue;
+}
+
+.feature .pacaran__img{
+    width: 200px;
+    float: right;
+}
+
+.feature .image-hasil__refine {
+    width: 130px;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.tabs-content_game {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(199, 199, 221);
+}
+
+.tabs-content_game li {
+    font-size: 10px;
+    margin-top: 5px;
+    border: 1px solid blue;
+    border-radius: 0px;
+}
+
+.tabs-content_game a {
+    border-radius: 0px;
+}
+
+.tabs-content_game li a.active {
+    border-radius: 0px;
+}
+
+.tab-content .image_notice{
+    height: 500px;
+}
+
+.content__tabs li {
+    margin-bottom: 5px !important;
+    margin-right: 2px;
+}
+
+.content__tabs li a.active{
+    background: white;
+    color: black;
+}
+
+
+.content__tabs li a{
+    background: orange;
+    padding: 3px;
+    color: white;
+}
+
+.bale-table{
+    font-size: 15px;
+    /* border: 1px solid rgb(199, 199, 221); */
+    width: 100%;
+}
+
+.bale-table img{
+    width: 200px;
+    border-radius: 0px;
+    margin: 10px;
+    border: none;
+    box-shadow: none;
+}
+
+.table_barang table{
+    border: 1px solid rgb(187, 187, 189);
+    width: 96%;
+    margin: auto;
+}
+
+.table_barang table th{
+    background-color: rgb(245, 229, 170);
+    border: 1px solid rgb(187, 187, 189);
+}
+
+.table_barang table td{
+    border: 1px solid rgb(187, 187, 189);
+}
+
+.table_barang img {
+    margin-top: 5px;
+    border-radius: 0px;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.content_guildwars{
+    border: none !important;
+}
+
+.list_guildwars ul li{
+    background-color: white;
+}
+
+.list_guildwars h6{
+    margin-top: 10px;
+    color: blue;
+    font-size: 19px;
+}
+
+.list_guildwars hr{
+    margin-top: 1%;
+}
+
+.list-guildwars__content li{
+    background: none;
+}
+
+.list-guildwars__content{
+    margin-left: 10px;
+}
+
+.content_guildwars table{
+    border: 1px solid;
+    text-align: center;
+    width: 100%;
+}
+
+.content_guildwars table td{
+    background: rgb(210, 233, 187);
+    border: 1px solid;
+}
+
+.content_guildwars table th{
+    border: 1px solid;
+}
+
+.table_guidwars table{
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.table_guidwars table th{
+    background: rgb(198, 198, 221);
+    border: 1px solid black;
+}
+
+.table_guidwars table td{
+    border: 1px solid black;
+}
+
+.button_up{
+    background: white;
+    cursor: pointer;
+    border: none;
+}
+
+.button_up:focus{
+    outline: 0;
+}
+
+.profesi_table table th{
+    color: orange !important;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.emoticon_item {
+    margin-right: 15px;
+    text-align: center;
+    float: left;
+}
+
+.emoticon_item img {
+    height: 50px; 
+    width: 50px; 
+    border-radius: 0px;
+}
+
+/* profile  */
+/* .profile .content__left{ */
+    /* border-right: 1px solid #BBBBBB; */
+    /* margin-top: 5%; */
+/* } */
+
+.profile .content__left{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid #BBBBBB;
+    width: 100%;
+    margin-top: 13% !important;
+    background: white;
+    margin: auto;
+}
+
+.profile .content__left h1{
+    font-size: 13px;
+}
+
+.profile .content__left h2{
+    text-align: right;
+    font-size: 13px;
+}
+
+.profile .content__left .btn {
+    font-size: 10px;
+    color: white;
+}
+
+/*  */
+
+.profile .content__right h1{
+    font-size: 18px;
+}
+
+.profile .content__right .form{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: 1px solid #BBBBBB;
+    margin-top: 5% !important;
+    width: 80%;
+    margin: auto;
+}
+
+.profile .content__right .form h2{
+    margin-top: 20px;
+    color: rgb(21, 90, 112);
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+
+.profile .content__right .form form{
+    background: lightblue;
+    border-radius: 10px;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.profile .content__right .form form input{
+    width: 75%;
+    margin: auto;
+}
+
+.profile .content__right .form form .button{
+    width: 83%;
+    /* margin-bottom: 20px; */
+    margin: auto;
+}
+
+.profile .content__right .form form .button button{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.profile .content__right .form form label{
+    margin-left: 12%;
+}
+
+.profile .content__right .closebtn{
+    background-color: red !important;
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+.profile .content__right .alert {
+    font-size: 20px;
+}
+
+.profile .content__right .alert-succes {
+    font-size: 20px;
+}
+
+.komik__list li{
+    background: #ffffff;
+}
+
+.komik__list li a {
+    color: black;
+}
+
+.player h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(58, 138, 165);
+}
+
+.player hr {
+    margin-top: 0px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: rgb(96, 61, 160); /* Modern Browsers */
+}
+
+.player ul {
+    border: none;
+}
+
+.player li a{
+   border: none !important;
+}
+
+.player li a.active{
+    background: blue !important;
+    color: white !important;
+    border-radius: 5px !important;
+}
+
+.player table{
+    text-align: center;
+    width: 100%;
+}
+
+
+.player table th{
+    background-color: rgb(149, 149, 211);
+    color: white;
+}
+
+.player table tr{
+    background-color: lightblue;
+}
+
+.player table tr:nth-child(2n+0){
+    background-color: white;
+}
+
+.profile__content li a.active{
+    background: blue !important;
+    color: white !important;
+    /* border-radius: 5px !important; */
+}
+
+
+.combine{
+    left: 0%;
+    width: 50px !important;
+    height: 50px !important;
+    position: absolute;
+    z-index: 0;
+    /* transition: all .2s ease .2s; */
+}
+
+.header-navigation-event{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header-navigation-event li{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px !important;
+    float: left;
+}
+
+.header-navigation-event li:hover{
+    background-color: blue;
+    border-radius: 5px !important;
+}
+
+.header-navigation-event li:hover a{
+    color: white;
+}
+
+.header-navigation-event li.active{
+    background-color: blue;
+    border-radius: 5px !important;
+}
+
+.header-navigation-event li.active a{
+    color: white;
+}
+
+.header-navigation-event li a{
+    font-size: 15px !important;
+    color: black;
+}
+
+.feature img{
+    height: 100%;
+}
+
+.list-footer{
+    background: white;
+    width: 75%;
+}
+
+.list-footer li{
+    padding: 10px;
+    display: inline;
+}
+
+.list-footer li a {
+    color: gray;
+}
+
+.main__footer .card {
+    color: gray;
+    font-size: 11px;
+    background: lightblue;
+    border: none;
+}

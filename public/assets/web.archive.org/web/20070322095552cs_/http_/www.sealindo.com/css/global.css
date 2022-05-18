@@ -1,0 +1,959 @@
+/*functions*/
+
+html>body{
+	margin: 5px 0 0 0;
+	background: rgb(141, 207, 242);
+}
+
+.clreol {
+	clear:both;
+	float:none;
+}
+
+br.clear {
+  clear: both;
+  height: 0;
+  line-height: 0px;
+}
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: inline-table;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+.mt5 {
+	margin-top: 5px;
+}
+.mr5 {
+	margin-right: 5px;
+}
+.mb5 {
+	margin-bottom: 5px;
+}
+.ml5 {
+	margin-left: 5px;
+}
+
+.mt10 {
+	margin-top: 10px;
+}
+.mr10 {
+	margin-right: 50px;
+}
+.mb10 {
+	margin-bottom: 10px;
+}
+.mleft {
+	margin-left: 10px;
+}
+.fleft {
+	float: left;
+}
+.fright {
+	float: right;
+}
+
+/*end function*/
+
+acronym{
+	color:#FF0000;
+	border-bottom:1px dashed #666;
+}	
+
+a.link1 {
+	color: #0065cd;
+}
+
+a:link, a:visited {
+	color: #666;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+img {
+	border: 0;
+	vertical-align: middle;
+}
+
+p {
+	margin: 0 0 10px 0;
+}
+
+h1 {
+	font-size: 12px;
+}
+
+h2 {
+	font-size: 1.1em;
+}
+h3 {
+	display: none;
+}
+
+ .comhead {
+	float: left;
+	margin: 0 0 0 9px;
+	height: 45px;
+	display: inline;
+}
+
+ .comhead h2{
+	float: left;
+	width: 100px;
+	font-family: "Verdana";
+	font-weight: bold;
+	font-size: 18px;
+	color: #0568b2;
+	background: url(../../../../20070322101525im_/http_/www.sealindo.com/images/layout/comhead.gif) no-repeat left;
+	padding: 0 0 0 12px;
+	line-height: 1.3em;
+}
+
+.comheadline {
+	float: left;
+	border-top: #e6e6e6 solid 1px;
+	width: 571px;
+	margin: -10px 0 0 0;
+	font-size: 0;
+	height: 1px;
+}
+
+.headermerah2 {
+	width: 535px;
+	background: url(../../../../20070322101525im_/http_/www.sealindo.com/images/layout/comhead.gif) no-repeat left;
+	color: #df0023;
+	font-size: 18px;
+	font-family: "Trebuchet MS";
+	display:inline;
+	padding:9px 0px 5px 12px;
+	margin:0 0 5px 0;
+	font-weight: bold;
+	float: left;
+	/*border-top: 1px solid #ddd;*/
+}
+
+.comheadline span {
+	display: none;
+}
+
+.backtotop {
+	float: left;
+	clear: both;
+	text-align: right;
+	width: 550px;
+	margin: 0 0 20px 0;
+	padding: 0 0 0 10px;
+}
+#berita .backtotop a{
+	border-bottom: none;
+	color: #000;
+}
+
+
+.arwrap1 {
+	float: left;
+	margin: 5px;
+	display: inline;
+}
+
+.arwrap2 {
+	float: left;
+	margin: 5px 15px 5px 15px;
+	display: inline;
+}
+
+.arwrap3 {
+	float: left;
+	margin: 12px 5px 0 30px;
+	display: inline;
+}
+
+.arwrap4 {
+	float: left;
+	margin: 8px 5px 5px 30px;
+	display: inline;
+}
+
+.arwrap5 {
+	float: left;
+	margin: 0 0 0 8px;
+	display: inline;
+	width: 931px;
+}
+
+.bgpath {
+	float: left;
+	background: #e6e6e6 url(../../../../20070322101459im_/http_/www.sealindo.com/images/layout/path_lc.gif) left no-repeat;
+	height: 19px;
+	padding: 0 0 0 5px;
+}
+.bgpathrc {
+	height: 19px;
+	float: left;
+	background: #e6e6e6 url(../../../../20070322101456im_/http_/www.sealindo.com/images/layout/path_rc.gif) right no-repeat;
+	padding: 0 5px 0 0;
+}
+
+.infopath {
+	float: left;
+	margin: 0 0 0 0;
+	height: 15px;
+	font-family: "MS Sans Serif";
+	font-size: 10px;
+	color: #666;
+	width: 692px;
+	background-color: #e6e6e6;
+	line-height: 0.9em;
+}
+
+.ppath {
+	margin: 5px 0 0 0;
+	padding: 0 0 0 18px;
+	background: url(../../../../20070322101506im_/http_/www.sealindo.com/images/layout/icon_home.gif) no-repeat;
+}
+/*init html*/
+
+html, body{
+	margin: 0;
+	font-family: "Trebuchet MS", "Verdana", sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	color: #000;
+	/* width: 100%; */
+	/* background: url(../../../../20070322095839im_/http_/www.sealindo.com/images/layout/bg.jpg); */
+	/* background-size: cover; */
+}
+
+
+
+#rascal {
+	/* width: 1500px !important; */
+	/* margin: 500px 0 0 8px; */
+	display: inline;
+	position: relative;
+}
+
+/* #ras {
+	height: 172px;
+	width: 947px;
+} */
+
+/* #cal {
+	width: 947px;
+} */
+
+#admin {
+	/* position: absolute; */
+	/* top: 5%; */
+	/* left: 15%; */
+	/* margin: 20 0 0 200px; */
+	margin-top: 25px;
+	/* margin-left: 130px; */
+}
+
+#admin .bgadmin {
+	z-index: 20;
+	/* position: absolute; */
+	width: 227px;
+	/* left: 10%; */
+	/* background: white; */
+	height: 171px;
+	background: url(../../../../20070727003659im_/http_/www.sealindo.com/images/admin/bg2.gif) no-repeat;
+}
+
+#admin .bgadmins {
+	z-index: 20;
+	/* position: absolute; */
+	width: 227px;
+	/* left: 10%; */
+	/* background: white; */
+	height: 171px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+#admin .bgadmins h1 {
+	font-size: 14px;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+#admin #bgtransparent {
+	position: relative;
+}
+
+#admin .bgtransparent {
+	/* position: absolute;
+	left: 0;
+	width: 227px;
+	height: 171px; */
+	z-index: 10;
+  /* Mozilla ignores crazy MS image filters, so it will skip the following
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='../images/admin/bg_transparency2.png');
+	*/
+}
+
+/* IE ignores styles with [attributes], so it will skip the following.
+#admin .bgtransparent[class] {
+	background: url(/web/20070322095552im_/http://www.sealindo.com/images/admin/bg_transparency2.png) no-repeat;
+}
+*/
+
+#admin .wrap1 {
+	float: left;
+	margin: 5px 5px 0 5px;
+	display: inline;
+	width: 206px;
+}
+
+#admin .wrap2 {
+	float: left;
+	margin: 12px 5px 0px 30px;
+	display: inline;
+	height: 10px;
+	width: 170px;
+}
+
+#admin .wrap3 {
+	margin: 8px 5px 5px 30px;
+	display: inline;
+	width: 206px;
+}
+
+#admin .wrap6 {
+	float: right;
+	width: 86px;
+	height: 54px;
+}
+
+#admin .logindownload {
+	float: left;
+}
+
+#admin .flatrichard {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#daftarbaru {
+	float: left;
+}
+
+#daftarbaru a{
+	display: block;
+	background: url(../../../../20070322101357im_/http_/www.sealindo.com/images/admin/daftar_baru_gratis.gif) no-repeat;
+	width: 216px;
+	height: 60px;
+}
+#daftarbaru a span {
+	display: none;
+}
+
+#login {
+	float: left;
+}
+
+#login a{
+	display: block;
+	margin: 4px 0 0 0;
+	background: url(../../../../20070322101344im_/http_/www.sealindo.com/images/admin/login.gif) no-repeat;
+	width: 116px;
+	height: 56px;
+}
+#login a span {
+	display: none;
+}
+#login a:hover{
+	background: url(../../../../20160813134505im_/http_/www.sealindo.com/images/admin/login_hover.gif) no-repeat;
+}
+
+
+#ubahpassword {
+	float: right;
+	margin: 4px 0 0 0;
+}
+
+#ubahpassword a{
+	display: block;
+	background: url(../../../../20070322101426im_/http_/www.sealindo.com/images/admin/ubah_password.gif) no-repeat;
+	width: 86px;
+	height: 25px;
+}
+#ubahpassword a span {
+	display: none;
+}
+#ubahpassword a:hover{
+	background: url(../../../../20120719080948im_/http_/www.sealindo.com/images/admin/ubah_password_hover.gif) no-repeat;
+}
+
+
+#lupapassword {
+	float: right;
+	margin: 4px 0 0 0;
+}
+
+
+#lupapassword a{
+	display: block;
+	background: url(../../../../20070727003254im_/http_/www.sealindo.com/images/admin/lupa_password.gif) no-repeat;
+	width: 86px;
+	height: 25px;
+}
+#lupapassword a span {
+	display: none;
+}
+#lupapassword a:hover{
+	background: url(../../../../20120719080943im_/http_/www.sealindo.com/images/admin/lupa_password_hover.gif) no-repeat;
+}
+
+
+
+
+#persetujuanpemain {
+	float: left;
+}
+
+#persetujuanpemain a{
+	display: block;
+	background: url(../../../../20070322101441im_/http_/www.sealindo.com/images/admin/persetujuan_pemain.gif) no-repeat;
+	width: 94px;
+	height: 10px;
+}
+#persetujuanpemain a span {
+	display: none;
+}
+#persetujuanpemain a:hover{
+	background: url(../../../../20160813134504im_/http_/www.sealindo.com/images/admin/persetujuan_pemain_hover.gif) no-repeat;
+}
+
+
+
+#aturanmain {
+	float: right;
+	display: inline;
+}
+
+
+#aturanmain a{
+	display: block;
+	background: url(../../../../20070322101443im_/http_/www.sealindo.com/images/admin/aturan_main.gif) no-repeat;
+	width: 58px;
+	height: 10px;
+}
+#aturanmain a span {
+	display: none;
+}
+#aturanmain a:hover{
+	background: url(../../../../20120719080948im_/http_/www.sealindo.com/images/admin/aturan_main_hover.gif) no-repeat;
+}
+
+#download {
+	background: white !important;
+	width: 100px;
+	margin-left: 10px;
+}
+
+#download a{
+	display: block;
+	background: url(../../../../20070727003312im_/http_/www.sealindo.com/images/admin/download.gif) no-repeat;
+	width: 206px;
+	height: 40px;
+}
+
+#download a span {
+	display: none;
+}
+
+
+#cal #calhead {
+	float: left;
+	/* width: 100%; */
+}
+
+#cal #calfoot {
+	/* float: left; */
+	margin: 5px 0 5px 0;
+	/* width: 947px; */
+}
+
+#calfoot .wrap1 {
+	float: left;
+	margin: 0 0 0 8px;
+	display: inline;
+	width: 931px;
+}
+
+
+#cal #hat {
+	width: 947px;
+	height: 33px;
+	margin: 0 0 0 0;
+}
+
+#cal .wrap {
+	float: left;
+	margin: 5px 15px 5px 13px;
+	display: inline;
+}
+
+#cal .bct {
+	width: 931px;
+}
+
+#cal .act {
+	width: 931px;
+}
+
+#cal .acc {
+	width: 947px;
+}
+
+#cal .bcc {
+	width: 947px;
+	height: 30px;
+}
+
+#cal .calheadclear {
+	clear: both;
+}
+
+#cal .acb {
+	width: 931px;
+}
+
+#cal #face {
+	width: 1100px;
+	position: relative;
+	display: inline;
+	float: left; 
+	margin: -30px 0 0 0;
+}
+
+/* #leftcenterear {
+	float: left;
+	width: 713px;
+}
+
+#leftear {
+	float: left;
+	width: 117px;
+}
+
+#rightear {
+	float: right;
+	width: 198px;
+	margin: 0 0 0 0;
+	display: inline;
+} */
+/* 
+#centerear {
+	float: left;
+	width: 575px;
+	margin: 0 0 0 12px;
+	display: inline;
+} */
+
+
+#menusc ul li{
+	list-style: none;
+	/* margin-bottom: 10px; */
+}
+
+/* #menusc ul {
+	width: ;
+} */
+
+#menusc ul li img{
+	width: 100%;
+}
+
+/* #menusc .fitursealonline a{
+	background: url(../../../../20070727003805im_/http_/www.sealindo.com/images/menusc/fitur_seal_online.gif) no-repeat;
+	margin: 0 0 3px 0;
+}
+
+#menusc .monstersealonline a{
+	background: url(../../../../20070322101635im_/http_/www.sealindo.com/images/menusc/monster_seal_online.gif) no-repeat;
+	margin: 0;
+}
+
+#menusc .duniasealonline a{
+	background: url(../../../../20120719074751im_/http_/www.sealindo.com/images/menusc/dunia_seal_online.gif) no-repeat;
+	margin: 0 0 3px 0;
+}
+
+#menusc .miniflashgame a{
+	background: url(../../../../20120719074745im_/http_/www.sealindo.com/images/menusc/mini_flash_game.gif) no-repeat;
+	margin: 0 0 3px 0;
+}
+
+#menusc .profesiseal a{
+	background: url(../../../../20070322101630im_/http_/www.sealindo.com/images/menusc/profesi.gif) no-repeat;
+	margin: 0 0 3px 0;
+}
+
+#menusc .guildwarguide a{
+	background: url(../../../../20070727003916im_/http_/www.sealindo.com/images/menusc/guild_guide.gif) no-repeat;
+	margin: 0 0 3px 0;
+}
+
+#menusc .guildrank a{
+	background: url(../../../../20070727003830im_/http_/www.sealindo.com/images/menusc/guild_rank.gif) no-repeat;
+} */
+
+
+#lowongan .he {
+	margin-top: 20px;
+	background: url(../../../../20070322101702im_/http_/www.sealindo.com/images/layout/bg_head.gif) bottom repeat-x;
+	width: 220px;
+	height: 28px;
+}
+
+#lowongan .h_lowongan {
+	float: left;
+	background: url(../../../../20070322101705im_/http_/www.sealindo.com/images/layanan/lowongan_pekerjaan.gif) no-repeat;
+	width: 149px;
+	height: 28px;
+}
+#lowongan .h_lowongan span {
+	display: none;
+}
+
+#lowongan .more a{
+	display: block;
+	float: right;
+	background: url(../../../../20070322101711im_/http_/www.sealindo.com/images/layout/more.gif) no-repeat;
+	width: 28px;
+	height: 28px;
+}
+#lowongan .more a span {
+	display: none;
+}
+
+#lowongan ul {
+	margin: 0 0 0 0;
+	list-style-type: none;
+}
+
+#lowongan li {
+	font-family: "Ms Sans Serif";
+	color: #666;
+	font-size: 12px;
+	/* padding-bottom: 10px; */
+	padding-top: 10px;
+	line-height: 15px;
+	/* border-bottom: #e6e6e6 solid 1px; */
+	/* margin-top: ; */
+	/* margin: 0px 0px 0px 2px; */
+
+}
+
+#lowongan p {
+	background: url(../../../../20070322101712im_/http_/www.sealindo.com/images/layanan/bg_p.gif) left no-repeat;
+	padding: 0 0 0 17px;
+	margin: 0;
+	height: 16px;
+}
+
+
+#lytogames .he {
+	margin-top: 20px;
+	background: url(../../../../20070322101702im_/http_/www.sealindo.com/images/layout/bg_head.gif) bottom repeat-x;
+	width: 220px;
+	height: 28px;
+}
+
+#lytogames .h_lytogames {
+	float: left;
+	background: url(../../../../20070322101714im_/http_/www.sealindo.com/images/lytogames/lyto_games.gif) no-repeat;
+	width: 83px;
+	height: 28px;
+}
+
+#lytogames .h_lytogames span {
+	display: none;
+}
+
+#lytogames span {
+	display: none;
+}
+
+#lytogames .lyto {
+	float: right;
+	background: url(../../../../20070322101724im_/http_/www.sealindo.com/images/lytogames/lyto.gif) no-repeat;
+	width: 23px;
+	height: 23px;
+	margin: 0 0 0 0;
+	display: inline;
+}
+
+#lytogames ul li{
+	margin-top: 10px;
+}
+
+/* #lytogames ul {
+	margin: 6px 0 0 0;
+	list-style-type: none;
+}
+
+#lytogames li {
+	display: inline;
+}
+
+#lytogames a{
+	display: block;
+	width: 198px;
+	height: 45px;
+} */
+
+/* #lytogames .seal {
+	background: url(../../../../20070322101735im_/http_/www.sealindo.com/images/lytogames/seal.gif) no-repeat;
+	margin: 0 0 3px 0;
+	display: block;
+	width: 198px;
+	height: 45px;
+}
+
+#lytogames .ro a{
+	background: url(../../../../20070322101732im_/http_/www.sealindo.com/images/lytogames/ragnarok.gif) no-repeat;
+	margin: 0 0 3px 0;
+}
+
+#lytogames .ga a{
+	background: url(../../../../20070322101759im_/http_/www.sealindo.com/images/lytogames/getamped.gif) no-repeat;
+}
+
+#lytogames .rf a{
+	background: url(../../../../20070727003925im_/http_/www.sealindo.com/images/lytogames/rfonline.gif) no-repeat;
+} */
+
+#calfoot{
+	margin: 10px;
+	border: 5px solid rgb(141, 207, 242);
+	border-radius: 10px;
+	background: lightblue;
+}
+
+
+#calfoot .credits {
+	float: left;
+	width: 250px;
+	height: 30px;
+	list-style-type: none;
+}
+
+#calfoot .credits li {
+	float: left;
+	display: inline;
+	margin: 0 16px 0 0;
+}
+#calfoot .credits li span {
+	display: none;
+}
+
+#calfoot .h_lyto {
+	display: block;
+	background: url(../../../../20070727003651im_/http_/www.sealindo.com/images/footer/h_lyto.gif) no-repeat;
+	width: 27px;
+	height: 30px;
+}
+
+#calfoot .h_grigon {
+	display: block;
+	background: url(../../../../20070727003137im_/http_/www.sealindo.com/images/footer/h_grigon.gif) no-repeat;
+	width: 80px;
+	height: 23px;
+}
+
+#calfoot .h_sunnyynk {
+	display: block;
+	background: url(../../../../20120719074756im_/http_/www.sealindo.com/images/footer/h_sunnyynk.gif) no-repeat;
+	width: 74px;
+	height: 21px;
+	margin: 0;
+}
+
+#calfoot .h_ynk {
+	display: block;
+	background: url(../../../../20070727003220im_/http_/www.sealindo.com/images/footer/h_ynk.gif) no-repeat;
+	width: 74px;
+	height: 23px;
+	margin: 0;
+}
+
+#calfoot .bgshortcut {
+	float: right;
+	background: #fff url(../../../../20070727003652im_/http_/www.sealindo.com/images/footer/lc.gif) left no-repeat;
+	height: 19px;
+	padding: 0 0 0 5px;
+}
+
+#calfoot .shortcut {
+	/* float: left; */
+	margin: 5px 0 0 0;
+	list-style-type: none;
+	height: 10px;
+}
+
+
+#calfoot .shortcut li {
+	float: left;
+	height: 10px;
+	padding: 0 12px 0 12px;
+	display: inline;
+	border-right: #cdcdcd solid 1px;
+}
+
+#calfoot .shortcut li span {
+	display: none;
+}
+
+#calfoot .shortcut a{
+	display: block;
+}
+
+#calfoot .h_home a{
+	background: url(../../../../20070727003943im_/http_/www.sealindo.com/images/footer/h_home.gif) no-repeat;
+	width: 20px;
+	height: 7px;
+}
+
+#calfoot .h_home a:hover{
+	background: url(../../../../20070322095552im_/http_/www.sealindo.com/images/footer/h_tj_hover.html) no-repeat;
+}
+
+#calfoot .h_pengenalan_seal a{
+	background: url(../../../../20070727003933im_/http_/www.sealindo.com/images/footer/h_pengenalan_seal.gif) no-repeat;
+	width: 73px;
+	height: 7px;
+}
+#calfoot .h_pengenalan_seal a:hover{
+	background: url(../../../../20180131035352im_/http_/www.sealindo.com/images/footer/h_pengenalan_seal_hover.html) no-repeat;
+}
+
+#calfoot .h_persetujuan_pemain a{
+	background: url(../../../../20070727003408im_/http_/www.sealindo.com/images/footer/h_persetujuan_user.gif) no-repeat;
+	width: 79px;
+	height: 7px;
+}
+#calfoot .h_persetujuan_pemain a:hover{
+	background: url(../../../../20070322095552im_/http_/www.sealindo.com/images/footer/h_tj_hover.html) no-repeat;
+}
+
+#calfoot .h_aturan_main a{
+	background: url(../../../../20070727003413im_/http_/www.sealindo.com/images/footer/h_aturan_main.gif) no-repeat;
+	width: 54px;
+	height: 7px;
+}
+#calfoot .h_aturan_main a:hover{
+	background: url(../../../../20180131035352im_/http_/www.sealindo.com/images/footer/h_aturan_main_hover.html) no-repeat;
+}
+
+#calfoot .h_tj a{
+	background: url(../../../../20120719074805im_/http_/www.sealindo.com/images/footer/h_tj.gif) no-repeat;
+	width: 23px;
+	height: 7px;
+}
+#calfoot .h_tj a:hover{
+	background: url(../../../../20070322095552im_/http_/www.sealindo.com/images/footer/h_tj_hover.html) no-repeat;
+}
+
+#calfoot .shortcut .h_kontak_kami {
+	border: none;
+}
+#calfoot .h_kontak_kami a{
+	background: url(../../../../20070727003419im_/http_/www.sealindo.com/images/footer/h_kontak_kami.gif) no-repeat;
+	width: 54px;
+	height: 7px;
+}
+
+#calfoot .h_kontak_kami a:hover{
+	background: url(../../../../20180131035352im_/http_/www.sealindo.com/images/footer/h_kontak_kami_hover.html) no-repeat;
+}
+
+#calfoot .copyright {
+	margin: 13px 0 0 0;
+	float: left;
+	width: 662px;
+	height: 17px;
+	background: url(../../../../20070727003417im_/http_/www.sealindo.com/images/footer/copyright.gif) no-repeat;
+}
+
+#calfoot .copyright span {
+	display: none;
+}
+
+#calfoot .wrap2 {
+	float: left;
+}
+
+#calfoot .wrap3 {
+	float: right;
+	margin: 0 20px 0 0;
+	display: inline;
+}
+
+#calfoot .sealcountry {
+	list-style-type: none;
+	
+}
+
+#calfoot .sealcountry li {
+	font-family: "Trebuchet MS";
+	text-transform: Uppercase;
+	display: inline;
+}
+
+#calfoot .sealcountry li span {
+	display: none;
+}
+
+#calfoot .sealcountry li a{
+	display: block;
+	width: 67px;
+	height: 16px;
+}
+
+
+#calfoot .indonesia a{
+	background: url(../../../../20070727003409im_/http_/www.sealindo.com/images/footer/f_indonesia.gif) left no-repeat;
+}
+
+#calfoot .korea a{
+	background: url(../../../../20070727003419im_/http_/www.sealindo.com/images/footer/f_korea.gif) left no-repeat;
+}
+
+#calfoot .japan a{
+	background: url(../../../../20070727003418im_/http_/www.sealindo.com/images/footer/f_japan.gif) left no-repeat;
+}
+
+#calfoot .china a{
+	background: url(../../../../20070727003418im_/http_/www.sealindo.com/images/footer/f_china.gif) left no-repeat;
+}
+
+#calfoot .taiwan a{
+	background: url(../../../../20070727003419im_/http_/www.sealindo.com/images/footer/f_taiwan.gif) left no-repeat;
+}
+
+#calfoot .thailand a{
+	background: url(../../../../20070727003422im_/http_/www.sealindo.com/images/footer/f_thailand.gif) left no-repeat;
+}
+
+#calfoot .usa a{
+	background: url(../../../../20161103180502im_/http_/www.sealindo.com/images/footer/f_usa.gif) left no-repeat;
+}
